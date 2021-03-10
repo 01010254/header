@@ -1,0 +1,100 @@
+header#main-header {
+    background: #fff;
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  header#main-header .header-box{
+    width: 100%;
+    background: #F1F1F1 0% 0% no-repeat padding-box;
+    height: 32px;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  header#main-header .header-box .header-content{
+    width: 1150px;
+   
+    background: #F1F1F1 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    align-content: center;
+    text-align: center;
+
+    height: 32px;
+    justify-content: space-between;
+    min-width: 870px;
+  }
+  
+  header#main-header .header-box .header-content .header-phones p{
+    text-align: left;
+    font-size: 12px;
+    letter-spacing: 0.24px;
+    color: #000000;
+    opacity: 1;
+    padding-left: 12px;
+    margin-right: 60px;
+
+  }
+  
+  header#main-header .header-box .header-content a{
+    color: #000;
+    text-decoration: none;
+    font-size: 23px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    
+
+
+  }
+
+  header#main-header .header-box .header-content a img{
+
+    width:16px;
+
+
+  }
+
+
+  header#main-header .header-box .header-content .header-phones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+  }
+
+  header#main-header .header-box .header-content .header-opcoes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+  }
+
+  header#main-header .header-box .header-content .header-opcoes p{
+    text-align: left;
+    font-size: 12px;
+    letter-spacing: 0.24px;
+    color: #000000;
+    opacity: 1;
+    padding-left: 12px;
+    margin-right: 60px;
+
+  }
+      
+.header-last{
+    
+    margin-right: 0px !important;
+
+}
+
+

@@ -1,0 +1,137 @@
+.header-pesquisa{
+    display: flex;
+    width: 1150px;
+    top: 32px;
+    left: 0px;
+    height: 110px;
+    align-items: center;
+}
+
+.header-pesquisa img{
+    height: 50px;
+   
+}
+
+.div-pesquisar{
+    margin-left: 100px;
+}
+
+.div-pesquisar .pesquisar{
+    width: 100%;
+	margin: 0 auto;
+	padding: 10px;
+	border: 2px solid #DFDFDF;
+
+	border-radius: 5px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background-image:url(../../../img/search.svg);
+	background-repeat:no-repeat; 
+    background-position: 96% center;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+.div-entrar{
+   
+   
+}
+
+.toggle-up img{
+    transform: rotate(180deg);
+}
+
+
+
+.toggle-down img{
+    transform: rotate(0deg);
+  }
+
+
+  
+.div-entrar p{
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+    
+}
+
+.div-entrar .toggle-div {
+    display: inline-grid;
+    position: fixed;
+    width: 174px;
+    height: 154px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #00000033;
+    
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    padding: 20px;
+    margin-top: 3px;
+
+    margin-left: -14px;
+    border-radius: 5px;
+    
+    transition: all 1.5s 0.75s;
+
+}
+.div-entrar .toggle-div a{
+    text-decoration:none; 
+    color: black;
+
+}
+.div-entrar .toggle-div a:hover{
+    font-weight: 600;
+
+}
+
+.toggle-none{
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity 600ms, visibility 600ms;
+    transition: opacity 600ms, visibility 600ms;
+}
+.toggle-inline {
+    
+    visibility: visible;
+    opacity: 1;
+}
+
+.div-entrar .seta{
+    height: 4px;
+    margin-left: 5px;
+    transition: all 1.5s 0.75s;
+
+}
+
+.header-pesquisa .path img{
+    height: 27px;
+    
+}
+.div-path{
+    margin-left: 52px;
+    
+        margin-right: 5px;
+
+}
+
+
+.div-path .number p{
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+    font-size: 11px;
+    width: 22px;
+    border-radius: 101px;
+    height: 22px;
+    display: flex;
+    position: absolute;
+   
+    margin-left: 9px;
+    margin-top: -19px;
+}
+
+.width-pesquisar{
+    width: 100%;
+}
