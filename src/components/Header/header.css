@@ -31,6 +31,18 @@ header#main-header {
     min-width: 870px;
   }
   
+   @media (max-width: 600px)  {
+    header#main-header .header-box .header-content{
+
+      min-width: 100%;
+    height: 136px;
+    z-index: 9;
+    }
+
+    
+  }
+
+  
   header#main-header .header-box .header-content .header-phones p{
     text-align: left;
     font-size: 12px;
@@ -40,6 +52,12 @@ header#main-header {
     padding-left: 12px;
     margin-right: 60px;
 
+  }
+
+  @media (max-width: 600px)  {
+    header#main-header .header-box .header-content .header-phones p{
+      margin-right: 0px;
+    }
   }
   
   header#main-header .header-box .header-content a{
@@ -55,6 +73,14 @@ header#main-header {
 
 
   }
+
+  @media (max-width: 600px)  {
+    header#main-header .header-box .header-content a{
+      width: 100%;
+    }
+  }
+
+  
 
   header#main-header .header-box .header-content a img{
 
@@ -95,6 +121,12 @@ header#main-header {
     
     margin-right: 0px !important;
 
+}
+
+@media (max-width: 600px)  {
+  .header-last{
+    margin-right: 0px !important;
+  }
 }
 
 

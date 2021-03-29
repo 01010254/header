@@ -7,14 +7,35 @@
     align-items: center;
 }
 
+@media (max-width: 600px)  {
+    .header-pesquisa{
+        height: 183px;
+        margin-top: 73px;
+    }
+  }
+
+
 .header-pesquisa img{
     height: 50px;
    
 }
 
+@media (max-width: 600px)  {
+    .header-pesquisa img{
+        margin-left: 5px;
+    }
+  }
+
+
 .div-pesquisar{
     margin-left: 100px;
 }
+
+@media (max-width: 600px)  {
+    .div-pesquisar{
+        margin-left: 10px;
+    }
+  }
 
 .div-pesquisar .pesquisar{
     width: 100%;
@@ -55,6 +76,14 @@
     cursor: pointer;
 }
 
+@media (max-width: 600px)  {
+    .div-entrar p{
+
+        padding-left: 10px;
+        
+    }
+  }
+
 .div-entrar .toggle-div {
     display: inline-grid;
     position: fixed;
@@ -75,6 +104,14 @@
     transition: all 1.5s 0.75s;
 
 }
+
+@media (max-width: 600px)  {
+    .div-entrar .toggle-div{
+
+        margin-left: -99px;
+        
+    }
+  }
 .div-entrar .toggle-div a{
     text-decoration:none; 
     color: black;
@@ -114,6 +151,12 @@
         margin-right: 5px;
 
 }
+
+@media (max-width: 600px)  {
+    .div-path{
+        margin-left: 19px;
+    }
+  }
 
 
 .div-path .number p{
