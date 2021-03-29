@@ -52,7 +52,7 @@
     display: flex;
     align-items: center;
     padding-left: 70px;
-    
+    cursor: pointer;
 }
 
 .div-entrar .toggle-div {
